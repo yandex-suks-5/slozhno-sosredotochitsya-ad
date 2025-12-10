@@ -1,4 +1,56 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  /* Цвета для светлой темы */
+  --bg-color: #FFF1F7;
+  --text-color: #353430;
+  --accent-color: #FF8DCB;
+  --title-color: #FFC2E6;
+  --shadow-color: #FF0070;
+  --button-color: #353430;
+  --card-bg: #FFF1F7;
+  --decor-color: #353430;
+
+  /* Типографика */
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size: 18px;
+  --line-height: 23.4px;
+
+  /* Отступы */
+  --section-padding: 20px;
+  --gap: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Цвета для тёмной темы */
+    --bg-color: #000028;
+    --text-color: #F1B2CE;
+    --accent-color: #FF0070;
+    --title-color: #DB00FF;
+    --shadow-color: #FF0070;
+    --button-color: #FF0070;
+    --card-bg: #000028;
+    --decor-color: #FF0070;
+  }
+}
+
+.theme-dark {
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --shadow-color: #FF0070;
+  --button-color: #FF0070;
+  --card-bg: #000028;
+  --decor-color: #FF0070;
+}
+
+.theme-light {
+  --bg-color: #FFF1F7;
+  --text-color: #353430;
+  --accent-color: #FF8DCB;
+  --title-color: #FFC2E6;
+  --shadow-color: #FF8DCB;
+  --button-color: #353430;
+  --card-bg: #FFF1F7;
+  --decor-color: #353430;
+}
