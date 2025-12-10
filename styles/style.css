@@ -199,7 +199,7 @@
   border-top: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .vertical {
     display: flex;
     gap: 0;
@@ -226,12 +226,6 @@
     object-fit: cover;
   }
 
-  .gallery__item--wide {
-  }
-
-  .gallery__item--tall {
-  }
-
   .section {
     margin-bottom: 0;
   }
@@ -254,7 +248,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .header__theme-menu-list {
     flex-direction: row;
   }
