@@ -1,52 +1,25 @@
 :root {
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --accent-color: #ff8dcb;
-  --title-color: #ffc2e6;
-  --shadow-color: #ff0070;
-  --button-color: #353430;
-  --card-bg: #fff1f7;
-  --decor-color: #353430;
-
-  --font-family: "IBM Plex Mono", monospace;
-  --font-size: 18px;
-  --line-height: 23.4px;
-
-  --section-padding: 20px;
-  --gap: 20px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --title-color: #db00ff;
-    --shadow-color: #ff0070;
-    --button-color: #ff0070;
-    --card-bg: #000028;
-    --decor-color: #ff0070;
-  }
-}
-
-.theme-dark {
+  --main-text-color: #f1b2ce;
   --bg-color: #000028;
-  --text-color: #f1b2ce;
-  --accent-color: #ff0070;
-  --title-color: #db00ff;
-  --shadow-color: #ff0070;
+  --main-header-color: #db00ff;
   --button-color: #ff0070;
-  --card-bg: #000028;
-  --decor-color: #ff0070;
-}
+  --button-hover-border: #ff007066;
+  --section-header-color: #ff0070;
+  --article-header-color: #000028;
+  --article-bg-color: #ff0070;
+  --link-shadow-color: #ff0070;
+  --shadow-color: #ff0070;
+  --bg-image: url("../images/cover-image-dark.png");
+  --visible: visible;
+  --main-font: 'IBM Plex Mono', monospace;
+  --main-font-size: 18px;
+  --main-line-height: 130%;
+  --header-articles-gap: 20px;
+  --articles-gap: 20px;
+  --header-weight: 700;
+  --text-weight: 400;
+  --main-padding: 10px;
+  --main-content-vertical-padding: 40px;
+  --sections-gap: 50px;
 
-.theme-light {
-  --bg-color: #fff1f7;
-  --text-color: #353430;
-  --accent-color: #ff8dcb;
-  --title-color: #ffc2e6;
-  --shadow-color: #ff8dcb;
-  --button-color: #353430;
-  --card-bg: #fff1f7;
-  --decor-color: #353430;
 }
