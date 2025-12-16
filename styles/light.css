@@ -1,7 +1,27 @@
-.theme-light .header__rec {
-  display: none;
+.page.theme_light {
+  --main-text-color: #353430;
+  --bg-color: #fff1f7;
+  --main-header-color: #ffc2e6;
+  --button-color: #353430;
+  --section-header-color: #353430;
+  --article-header-color: #353430;
+  --article-bg-color: #ff8dcb;
+  --link-shadow-color: #ff8dcb;
+  --bg-image: url("../images/cover-image-light.png");
+  --visible: hidden;
 }
 
-.theme-light .header__theme-menu-button {
-  color: var(--button-color);
+@media (prefers-color-scheme: light) {
+  .page {
+    --main-text-color: #353430;
+    --bg-color: #fff1f7;
+    --main-header-color: #ffc2e6;
+    --button-color: #353430;
+    --section-header-color: #353430;
+    --article-header-color: #353430;
+    --article-bg-color: #ff8dcb;
+    --link-shadow-color: #ff8dcb;
+    --bg-image: url("../images/cover-image-light.png");
+    --visible: hidden;
+  }
 }
